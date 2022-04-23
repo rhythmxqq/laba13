@@ -1,0 +1,8 @@
+
+ FileReader fileReader = new FileReader("input.txt");
+            int k = 0;
+            String text = "";
+            while((k = fileReader.read()) != -1){
+                text += (char)k;
+            }
+            

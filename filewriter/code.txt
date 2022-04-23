@@ -1,0 +1,11 @@
+
+ /*
+ 312312fasdfasdf31231
+ fasdfasdfasdfsd
+ */FileReader fileReader = new FileReader("input.txt");
+            int k = 0;
+            String text = "";
+            while((k = fileReader.read()) != -1){
+                text += (char)k;
+            }
+            //fasdfasdfasdfasdfasdf
